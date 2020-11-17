@@ -13,7 +13,7 @@ export default function Main(props) {
                             // tra ve 1 sp
                             // e <=> products[i]
                             return (
-                                <div className="col-md-4">
+                                <div key={i} className="col-md-4">
                                     <div className="item text-center">
                                         <img className="product-image" src={e.image} height="700"
                                              width="700"/>

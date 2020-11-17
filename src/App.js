@@ -18,7 +18,7 @@ class App extends React.Component{
             .then(rs=>{
                // rs chinh la du lieu JSON nhan duoc tu api
                 this.setState({
-                    products:rs.data // nap du lieu tu rs.data vao products trong state
+                    products:rs.data // nap du lieu tu rs.data vao products trong ste
                 })
             });
     }
