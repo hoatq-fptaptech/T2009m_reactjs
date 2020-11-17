@@ -1,68 +1,7 @@
 import React from 'react'
-var products=[
-    {
-        productName: "Flying ninja",
-        price: 12,
-        image:"imgs/ao-thun-tennis-tts100-cho-nam-den.jpg",
-        star:5
-    },
-    {
-        productName: "Flying ninja",
-        price: 12,
-        image:"imgs/ao-thun-tennis-tts100-cho-nam-den.jpg",
-        star:4
-    },
-    {
-        productName: "Flying ninja",
-        price: 12,
-        image:"imgs/ao-thun-tennis-tts100-cho-nam-den.jpg",
-        star:3.5
-    },
-    {
-        productName: "Flying ninja",
-        price: 12,
-        image:"imgs/ao-thun-tennis-tts100-cho-nam-den.jpg",
-        star:3
-    },
-    {
-        productName: "Flying ninja",
-        price: 12,
-        image:"imgs/ao-thun-tennis-tts100-cho-nam-den.jpg",
-        star:1
-    },
-    {
-        productName: "Flying ninja",
-        price: 12,
-        image:"imgs/ao-thun-tennis-tts100-cho-nam-den.jpg",
-        star:2
-    },
-    {
-        productName: "Flying ninja",
-        price: 12,
-        image:"imgs/ao-thun-tennis-tts100-cho-nam-den.jpg",
-        star:0
-    },
-    {
-        productName: "Flying ninja",
-        price: 12,
-        image:"imgs/ao-thun-tennis-tts100-cho-nam-den.jpg",
-        star:3.5
-    },
-    {
-        productName: "Flying ninja",
-        price: 12,
-        image:"imgs/ao-thun-tennis-tts100-cho-nam-den.jpg",
-        star:3.5
-    },
-    {
-        productName: "Flying ninja",
-        price: 12,
-        image:"imgs/ao-thun-tennis-tts100-cho-nam-den.jpg",
-        star:3.5
-    }
 
-]
-export default function Main() {
+export default function Main(props) {
+    const products = props.productlist;
     return (
         <section className="section main">
             <div className="container">
